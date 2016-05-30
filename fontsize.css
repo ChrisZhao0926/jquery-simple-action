@@ -21,3 +21,10 @@ body.narrow .chapter {
   padding: 10px;
   font-size: .9em;
 }
+.hidden{
+	display:none;
+}
+.hover{
+	cursor:pointer;
+	background-color:#afa;
+}
