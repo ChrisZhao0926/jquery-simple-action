@@ -1,11 +1,13 @@
 $(document).ready(function(e) {
+	
 	$('#default').addClass('selected');
 	$('#switcher').hover(function(){
 		$(this).addClass('hover');
 	},function(){
 		$(this).removeClass('hover');
 	});
-    $('#switcher').click(function(event) {
+    
+	$('#switcher').click(function(event) {
 		if($(event.target).is('button')) {
 			var bodyClass=event.target.id;
 			$('body').removeClass().addClass(bodyClass);
@@ -16,12 +18,17 @@ $(document).ready(function(e) {
 			$('#switcher button').toggleClass('hidden');
 		}
 	});
-	/*$('#switcher').click(function(event){
+	$('#switcher').click();
+	/*
+	$('#switcher').click(function(event){
 
 		if(!$(event.target).is('button')){
 			
 			$('#switcher button').toggleClass('hidden');
 		}
 
-	});*/
+	});
+	*/
+
+	
 });
