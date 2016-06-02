@@ -1,0 +1,31 @@
+/***************************************
+   Default Styles
+************************************** */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font:  Verdana, Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+
+
+/***************************************
+   Chapter Styles
+************************************** */
+
+#switcher {
+  width: 300px;
+  padding: .5em;
+  border: 1px solid #777;
+}
+.label {
+  width: 130px;
+  margin: .5em 0;
+  cursor: pointer;
+}
